@@ -1,0 +1,372 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*background-color: #d9d9d9;*/
+    /*background-color: #c9c9c6;*/  
+    
+}
+
+body{
+    background-image: url(/assets/img/iza.jpg);
+    z-index: 1; /*define a prioridade do elemento*/
+}
+
+/*INÍCIO DA TELA DE LOGIN*/
+.titulo_principal {
+    /*FONTE*/
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    /*FONTEf*/
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 45px;
+    /*background-color: rgb(180, 17, 145);*/
+    background-color: #5d5957;
+    color: white;
+    margin-right: 1085px;
+    border-radius: 10px;
+    border-style: double;
+}
+
+/*configura o texto login*/
+.login {
+    /*FONTE*/
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    /*FONTEf*/
+    font-size: 50px;  
+    margin-left: 100px;   
+    margin-top: 10px; 
+    background-color: #e6e6e4;  
+}
+
+/*configurar a caixa11*/
+.caixa1 {
+    border-style: inset;
+    border-radius: 15px;  
+    margin-left: 230px;
+    margin-right: 230px;
+    height: 480px;
+    background-color: #e6e6e4;
+}
+
+/*configura os espaçamentos*/
+hr {
+    margin-top: 30px;
+    border-style: hidden;
+}
+
+/*configura os textos: e-mail e senha*/
+.senhaemail {
+   margin-left: 100px; 
+   font-size: 20px;
+   background-color: #e6e6e4;
+}
+
+/*configura a caixa de texto*/
+#digito {
+    margin-left: 100px;
+    border-style: ridge;
+    width: 500px;
+    border-style: hidden;
+    background-color: white;
+    border-radius: 10px;
+    height: 30px;  
+}
+
+/*configura o botão*/
+.button {
+   margin-left: 600px; 
+   margin-top: 12px;
+   border-style: hidden;
+   background-color: #5d5957;
+   border-radius: 15px;
+   font-size: 20px;
+   color: white;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   padding: 10px;
+}
+/*FIM DA TELA DE LOGIN*/
+
+
+/*INÍCIO DO HOMEPAGE*/
+hr {
+    margin-top: 60px;
+}
+
+.barra-de-pesquisa {
+    border-style: inset;
+    border-radius: 10px;
+    font-size: 30px;
+    border-color: #5d5957;
+    outline: none;
+    margin-left: 450px
+   
+}
+
+.botao-de-pesquisa {
+    width: 45px;
+    height: 35px;
+    margin-left: 4px;
+    position: absolute;
+}
+
+.ancoras {
+border-style: hidden;
+word-spacing: 50px;
+margin-left: 80px;
+margin-right: 80px;
+background-color: #5d5957;
+border-radius: 10px;
+height: 30px;
+text-align: center;
+}
+
+.ancora {
+    background-color: #5d5957;
+    color: white;
+}
+
+.caixa-2 {
+    margin: 40px;
+    font-size: 20px;
+    background-color: #5d5957;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    margin-right: 440px;
+    margin-left: 440px;
+    
+}
+
+.lista-ordenada {
+    margin: 30px;
+}
+
+.titulo-2 {
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: #5d5957;
+    color: white;
+    border-radius: 15px;
+    padding: 5px;
+    border-style: dashed;
+    
+}
+
+.titulo-3 {
+    background-color: #5d5957; 
+    color: white;
+    border-style: dashed;
+    border-radius: 15px;
+    padding: 5px;
+    margin-left: 300px;
+    margin-right: 300px;
+    
+
+}
+
+.video {
+    width: 300px;
+    height: 200px;
+    margin-left: 510px;
+    background-color: #5d5957;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+.depoimento {
+    margin-top: 10px;
+    margin-left: 410px;
+
+}
+
+.depoimento-2 {
+   margin-left: 600px;
+}
+
+
+/*TÉRMINO DE HOMEPAGE*/
+
+
+/*INÍCIO DE LIVROS*/
+/*configura as imagens*/
+img {
+    height: 200px;
+    width: 200px;
+    margin-left: 60px;
+}
+
+/*configura o sengundo texto perincipal*/
+.titulo1  {
+    margin: 10px; 
+    font-family: "Share Tech Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #5d5957;
+    color: white;
+    margin-right: 1090px;
+    margin-left: 20px;
+    border-radius: 10px;
+    font-size: 25px;
+    opacity: 7px; 
+}
+
+.livros {
+    margin-left: 95px;
+    background-color: #c9c9c6; 
+    padding: 10px;
+    margin-right: 95px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #000;
+}
+
+.botao {
+    margin-top: 50px;
+    margin-bottom: 120px;   
+}
+    
+.comprar {
+    padding: 5px;
+    margin-top: 20px;
+    position: absolute;
+    color: white;
+    background-color: green;
+    border-style: hidden;
+    border-radius: 5px;
+}
+
+.compra-do-livro {
+    margin: 20px;
+    margin-left: 520px;
+    padding: 5px;
+    padding-left: 55px;
+    outline: none;
+    border-radius: 5px;
+    border-style: hidden;
+}
+
+/*FIM DE LIVROS*/
+
+/*INÍCIO DE QUEMSOMOS*/
+.caixa-5 {
+   background-color: #5d5957; 
+   margin-right: 85px;
+   margin-left: 85px;
+   border-radius: 3px;
+   border-style: double;
+   border-color: white
+}
+
+.topicos {
+    margin: 40px;
+    color: white;
+}
+
+.espaco_quemsomos {
+    margin-top: 15px;
+}
+
+.titulo2 {
+    margin-left: 395px;
+    color: white;
+}
+
+.titulo2-1 {
+    margin: 15px;
+    color: white;
+}
+
+p {
+    margin: 5px;
+    color: white;
+}
+
+.icones {
+    width: 50px;
+    height: 50px;
+    word-spacing: 5px;
+    margin-left: 220px;
+    
+    
+}
+
+/*TÉRMINO DE QUEMSOMOS*/
+
+/*INÍCIO DE FINANCEIRO*/
+.titulos {
+   margin-left: 170px; 
+   background-color: #5d5957;
+   color: white;
+   margin-right: 700px;
+   padding: 15px;
+   border-radius: 10px;
+   font-size: 20px;
+}
+
+.botao-financeiro {
+margin: 15px;
+background-color: #5d5957;
+padding: 5px;
+color: white;
+border-radius: 5px;
+}
+
+.nomes {
+    margin-left: 210px;
+}
+
+.caixas-de-texto {
+    margin-left: 210px;
+    padding: 3px;
+    border-style: hidden;
+    padding-left: 150px;
+    border-radius: 7px;
+}
+
+.selecao {
+    margin-left: 215px;
+}
+
+.compras {
+    background-color: #c9c9c6;
+    margin-left: 120px;
+    margin-right: 120px;
+    border-radius: 15px;
+    padding: 10px;
+    border-style: solid;
+    border-color: black;
+}
+
+.confirmar {
+    background-color: green;
+    padding: 5px;
+    border-radius: 5px;
+    border-style: hidden;
+    color: white;
+    margin-left: 900px;
+}
+
+.cancelar {
+    background-color: red;
+    padding: 5px;
+    border-radius: 5px;
+    border-style: hidden;
+    color: white;
+}
+
+/*TÉRIMONO DE FINANCEIRO*/
+
+
+/*outros*/
+td,th {
+    border: 1px solid #000;
+    padding: 10px;
+}
+
